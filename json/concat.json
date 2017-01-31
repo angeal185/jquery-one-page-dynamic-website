@@ -1,0 +1,85 @@
+﻿var serviceData = [
+		{"icon":"dashboard","title":"","sub":""},
+		{"icon":"gear","title":"","sub":""},
+		{"icon":"apple","title":"","sub":""},
+		{"icon":"medkit","title":"","sub":""}
+		];
+		
+var service =
+{"<>":"div","class":"service-list","html":[
+    {"<>":"div","class":"service-list-col1","html":[
+        {"<>":"i","class":"fa-${icon}","html":""}
+      ]},
+    {"<>":"div","class":"service-list-col2","html":[
+        {"<>":"h3","class":"Title","html":"${title}"},
+        {"<>":"p","class":"Lorem","html":"${sub}"}
+      ]}
+  ]};
+
+var featuredData = [
+		{"icon":"magic","title":"","sub":""},
+		{"icon":"gift","title":"","sub":""},
+		{"icon":"dashboard","title":"","sub":""}
+		];
+		
+var featured =  
+{"<>":"div","class":"featured-box","html":[
+    {"<>":"div","class":"featured-box-col1 wow fadeInRight delay-02s","html":[
+        {"<>":"i","class":"fa-${icon}","html":""}
+      ]},
+    {"<>":"div","class":"featured-box-col2 wow fadeInRight delay-02s","html":[
+        {"<>":"h3","class":"Title","html":"${title}"},
+        {"<>":"p","class":"Lorem","html":"${sub}"}
+      ]}
+  ]};
+
+var portfolioData = [
+		{"label":"printdesign","img":"section-bg-1.jpg","href":"img1","title":"","name":""},
+		{"label":"webdesign","img":"section-bg-1.jpg","href":"img2","title":"","name":""},
+		{"label":"branding","img":"section-bg-1.jpg","href":"img3","title":"","name":""},
+		{"label":"photography","img":"section-bg-1.jpg","href":"img4","title":"","name":""},
+		{"label":"branding","img":"section-bg-1.jpg","href":"img5","title":"","name":""},
+		{"label":"photography","img":"section-bg-1.jpg","href":"img6","title":"","name":""}
+		];
+  
+var portfolio =
+{"<>":"div","class":" Portfolio-box ${label}","html":[
+    {"<>":"a","href":"#${href}","html":[
+        {"<>":"img","src":"img/${img}","html":""}
+      ]},
+    {"<>":"h3","class":"Name","html":"${name}"},
+    {"<>":"p","class":"Title","html":"${title}"}
+  ]}
+
+var teamData = [
+		{"img":"avatar.jpg","title":"","sub":"","name":""},
+		{"img":"avatar.jpg","title":"","sub":"","name":""},
+		{"img":"avatar.jpg","title":"","sub":"","name":""}
+		];
+
+var team =    
+{"<>":"div","class":"team-leader-box","html":[
+    {"<>":"div","class":"team-leader wow fadeInDown delay-03s","html":[
+        {"<>":"div","class":"team-leader-shadow","html":[
+            {"<>":"a","href":"#","html":""}
+          ]},
+        {"<>":"img","src":"img/${img}","html":""},
+        {"<>":"ul","html":[
+            {"<>":"li","html":[
+                {"<>":"a","href":"#","class":"fa-twitter","html":""}
+              ]},
+            {"<>":"li","html":[
+                {"<>":"a","href":"#","class":"fa-facebook","html":""}
+              ]},
+            {"<>":"li","html":[
+                {"<>":"a","href":"#","class":"fa-pinterest","html":""}
+              ]},
+            {"<>":"li","html":[
+                {"<>":"a","href":"#","class":"fa-google-plus","html":""}
+              ]}
+          ]}
+      ]},
+    {"<>":"h3","class":"wow fadeInDown delay-03s Name","html":"${name}"},
+    {"<>":"span","class":"wow fadeInDown delay-03s Title","html":"${title}"},
+    {"<>":"p","class":"wow fadeInDown delay-03s Lorem","html":"${sub}"}
+  ]};
